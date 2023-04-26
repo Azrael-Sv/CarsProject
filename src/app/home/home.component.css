@@ -1,0 +1,139 @@
+head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.logo {
+  width: 10rem;
+  height: auto;
+}
+.first-title {
+  display: flex;
+  align-items: center;
+}
+
+.first-title p {
+  max-width: 12rem;
+  margin-top: 2rem;
+}
+
+.second-title {
+  display: flex;
+  align-items: center;
+}
+
+.second-title mat-icon {
+  transform: scale(3);
+  width: 2.5rem;
+  height: auto;
+  color: rgb(232, 57, 57);
+}
+.second-title p {
+  max-width: 5rem;
+  margin-top: 2rem;
+}
+
+.third-title {
+  align-content: center;
+}
+
+.third-title h2 {
+  margin: 0rem;
+  margin-top: 1rem;
+  letter-spacing: 0.23rem;
+}
+.third-title p {
+  text-align: center;
+  margin: 0rem;
+  font-size: 10px;
+}
+
+.fourth-title button {
+  margin-top: 1rem;
+  border: 0.15rem solid rgb(232, 57, 57);
+  height: 3rem;
+  width: 13rem;
+}
+
+body {
+  color: rgb(255, 255, 255);
+  align-items: center;
+  margin-left: 6.2rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+body h1 {
+  font-size: 50px;
+  max-width: 50rem;
+  letter-spacing: 0.01rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+body img {
+  float: right;
+  width: 49rem;
+  height: auto;
+}
+
+#firstParagraph {
+  font-size: 19px;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 30rem;
+}
+
+body div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+body mat-icon {
+  margin-left: 1rem;
+  margin-right: 1.5rem;
+  transform: scale(3.5);
+  height: auto;
+  color: rgb(232, 57, 57);
+}
+
+#secondParagraph {
+  font-size: 15px;
+  line-height: 1.3rem;
+  max-width: 25rem;
+}
+
+body button {
+  background-color: rgb(232, 57, 57);
+  width: 12rem;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+footer div {
+  margin-left: 6.2rem;
+}
+
+footer img {
+  margin-left: 4rem;
+  width: 3rem;
+  height: auto;
+}
+
+footer p {
+  max-width: 15rem;
+  font-size: 15px;
+  line-height: 1.3rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
