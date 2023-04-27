@@ -3,9 +3,10 @@ head {
   justify-content: space-around;
   align-items: center;
   color: rgb(255, 255, 255);
+  margin-top: 1em;
 }
 .logo {
-  width: 10rem;
+  width: 10em;
   height: auto;
 }
 .first-title {
@@ -14,8 +15,8 @@ head {
 }
 
 .first-title p {
-  max-width: 12rem;
-  margin-top: 2rem;
+  max-width: 12em;
+  margin-top: 2em;
 }
 
 .second-title {
@@ -25,13 +26,13 @@ head {
 
 .second-title mat-icon {
   transform: scale(3);
-  width: 2.5rem;
+  width: 1.7em;
   height: auto;
   color: rgb(232, 57, 57);
 }
 .second-title p {
-  max-width: 5rem;
-  margin-top: 2rem;
+  max-width: 5em;
+  margin-top: 2em;
 }
 
 .third-title {
@@ -39,60 +40,60 @@ head {
 }
 
 .third-title h2 {
-  margin: 0rem;
-  margin-top: 1rem;
-  letter-spacing: 0.23rem;
+  margin: 0em;
+  margin-top: 1em;
+  letter-spacing: 0.23em;
 }
 .third-title p {
   text-align: center;
-  margin: 0rem;
+  margin: 0em;
   font-size: 10px;
 }
 
 .fourth-title button {
-  margin-top: 1rem;
-  border: 0.15rem solid rgb(232, 57, 57);
-  height: 3rem;
-  width: 13rem;
+  margin-top: 1em;
+  border: 0.15em solid rgb(232, 57, 57);
+  height: 3em;
+  width: 13em;
 }
 
 body {
   color: rgb(255, 255, 255);
   align-items: center;
-  margin-left: 6.2rem;
-  margin-top: 5rem;
-  margin-bottom: 10rem;
+  margin-left: 7em;
+  margin-top: 3em;
+  margin-bottom: 8.5em;
 }
 
 body h1 {
-  font-size: 50px;
-  max-width: 50rem;
-  letter-spacing: 0.01rem;
-  line-height: 3rem;
-  margin-bottom: 2rem;
+  font-size: 60px;
+  max-width: 17em;
+  letter-spacing: 0.001em;
+  line-height: 1.2em;
+  margin-bottom: 0.6em;
 }
 
 body img {
   float: right;
-  width: 49rem;
+  width: 52em;
   height: auto;
 }
 
 #firstParagraph {
-  font-size: 19px;
-  line-height: 1.5rem;
-  margin-bottom: 2rem;
-  max-width: 30rem;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  max-width: 30em;
 }
 
 body div {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5em;
 }
 body mat-icon {
-  margin-left: 1rem;
-  margin-right: 1.5rem;
+  margin-left: 1em;
+  margin-right: 1.5em;
   transform: scale(3.5);
   height: auto;
   color: rgb(232, 57, 57);
@@ -100,36 +101,36 @@ body mat-icon {
 
 #secondParagraph {
   font-size: 15px;
-  line-height: 1.3rem;
-  max-width: 25rem;
+  line-height: 1.3em;
+  max-width: 27em;
 }
 
 body button {
   background-color: rgb(232, 57, 57);
-  width: 12rem;
+  width: 15em;
+  height: 3em;
 }
 
 footer {
   color: rgb(255, 255, 255);
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
 }
 
 footer div {
-  margin-left: 6.2rem;
+  margin-left: 7em;
 }
 
 footer img {
-  margin-left: 4rem;
-  width: 3rem;
+  margin-left: 5em;
+  width: 3em;
   height: auto;
 }
 
 footer p {
-  max-width: 15rem;
+  max-width: 15em;
   font-size: 15px;
-  line-height: 1.3rem;
+  line-height: 1.3em;
 }
 
 .logos {
