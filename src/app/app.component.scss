@@ -1,13 +1,10 @@
 .first-page {
   background-image: url(../assets/Background.jpg);
-  // height: 100%;
   width: 100%;
-  //  position: fixed; 
-  //  justify-content: center; 
   overflow: hidden;
 }
 
-head {
+.first-page head {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,6 +15,7 @@ head {
   width: 10em;
   height: auto;
 }
+
 .first-title {
   display: flex;
   align-items: center;
@@ -66,7 +64,7 @@ head {
   width: 13em;
 }
 
-body {
+.first-page body {
   color: rgb(255, 255, 255);
   align-items: center;
   margin-left: 7em;
@@ -117,22 +115,22 @@ body button {
   background-color: rgb(232, 57, 57);
   width: 15em;
   height: 3em;
-  margin-bottom: 8.5em;
+  margin-bottom: 11.5em;
 }
 
-.pseFooter1 {
+.pse-footer1 {
   color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
 }
 
-.pseFooter1 img {
+.pse-footer1 img {
   margin-left: 5em;
   width: 3em;
   height: auto;
 }
 
-.pseFooter1 p {
+.pse-footer1 p {
   max-width: 15em;
   font-size: 15px;
   line-height: 1.3em;
@@ -143,4 +141,37 @@ body button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.second-page {
+  background-color: whitesmoke;
+  width: 100%;
+  overflow: hidden;
+}
+
+.second-page head {
+  margin-top: 6em;
+  display: flex;
+  color: black;
+  margin-left: 7em;
+}
+
+.second-page h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.second-page body {
+  justify-content: space-around;
+  align-items: center;
+  display: grid;
+  column-gap: 16.6%;
+  margin-left: 21.4em;
+   margin-top: 2em;
+  margin-right: 21.4em;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+span{
+  margin-bottom: 10em;
 }
