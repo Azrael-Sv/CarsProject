@@ -1,0 +1,177 @@
+.first-page {
+  background-image: url(../assets/Background.jpg);
+  width: 100%;
+  overflow: hidden;
+}
+
+.first-page head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  margin-top: 1em;
+}
+.logo {
+  width: 10em;
+  height: auto;
+}
+
+.first-title {
+  display: flex;
+  align-items: center;
+}
+
+.first-title p {
+  max-width: 12em;
+  margin-top: 2em;
+}
+
+.second-title {
+  display: flex;
+  align-items: center;
+}
+
+.second-title mat-icon {
+  transform: scale(3);
+  width: 1.7em;
+  height: auto;
+  color: rgb(232, 57, 57);
+}
+.second-title p {
+  max-width: 5em;
+  margin-top: 2em;
+}
+
+.third-title {
+  align-content: center;
+}
+
+.third-title h2 {
+  margin: 0em;
+  margin-top: 1em;
+  letter-spacing: 0.23em;
+}
+.third-title p {
+  text-align: center;
+  margin: 0em;
+  font-size: 10px;
+}
+
+.fourth-title button {
+  margin-top: 1em;
+  border: 0.15em solid rgb(232, 57, 57);
+  height: 3em;
+  width: 13em;
+}
+
+.first-page body {
+  color: rgb(255, 255, 255);
+  align-items: center;
+  margin-left: 7em;
+  margin-top: 3em;
+}
+
+body h1 {
+  font-size: 60px;
+  max-width: 17em;
+  letter-spacing: 0.001em;
+  line-height: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+body img {
+  float: right;
+  width: 52em;
+  height: auto;
+}
+
+#firstParagraph {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  max-width: 30em;
+}
+
+body div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5em;
+}
+body mat-icon {
+  margin-left: 1em;
+  margin-right: 1.5em;
+  transform: scale(3.5);
+  height: auto;
+  color: rgb(232, 57, 57);
+}
+
+#secondParagraph {
+  font-size: 15px;
+  line-height: 1.3em;
+  max-width: 27em;
+}
+
+body button {
+  background-color: rgb(232, 57, 57);
+  width: 15em;
+  height: 3em;
+  margin-bottom: 11.5em;
+}
+
+.pse-footer1 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.pse-footer1 img {
+  margin-left: 5em;
+  width: 3em;
+  height: auto;
+}
+
+.pse-footer1 p {
+  max-width: 15em;
+  font-size: 15px;
+  line-height: 1.3em;
+  margin-right: 10em;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-page {
+  background-color: whitesmoke;
+  width: 100%;
+  overflow: hidden;
+}
+
+.second-page head {
+  margin-top: 6em;
+  display: flex;
+  color: black;
+  margin-left: 7em;
+}
+
+.second-page h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.second-page body {
+  justify-content: space-around;
+  align-items: center;
+  display: grid;
+  column-gap: 16.6%;
+  margin-left: 21.4em;
+   margin-top: 2em;
+  margin-right: 21.4em;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+span{
+  margin-bottom: 10em;
+}
